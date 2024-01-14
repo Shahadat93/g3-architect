@@ -16,12 +16,13 @@ header{
     background-color: #FF900E1A;
 }
 .nav-bar h2{
-    font-size: 2rem;
+    font-size: 40px;
 }
 
 .nav-bar{
     display: flex;
     padding: 50px 0px;
+    align-items: center;
 }
 
 .nav-bar ul{
@@ -37,11 +38,15 @@ ul>li{
 
 /* Banner Design  */
 
+.banner{
+    text-align: center;
+}
 .banner h1{
     color: #131313;
     text-align: center;
     font-size: 3rem;
     font-weight: 700;
+    margin-bottom: 30px;
 }
 
 .banner p{
@@ -49,6 +54,7 @@ ul>li{
     text-align: center;
     font-weight: 400;
     max-width: 868px;
+    margin-bottom: 30px;
 }
 
 .primary-btn{
@@ -59,8 +65,13 @@ ul>li{
     border-radius: 7px;
     color: #fff;
     background-color: #FF900E;
+    margin-bottom: 30px;
 }
 
 .banner img{
     max-width: 1440px;
+    margin-bottom: 35px;
 }
+
+/* Heder Design End  */
+
