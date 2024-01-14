@@ -3,14 +3,20 @@
     padding: 0;
     font-family: 'Work Sans', sans-serif;
     max-width: 100%;
+    font-size: 16px;
 }
 
 
 
 /* Header Design  */
 
+
+/* navbar Design  */
 header{
     background-color: #FF900E1A;
+}
+.nav-bar h2{
+    font-size: 2rem;
 }
 
 .nav-bar{
@@ -25,4 +31,36 @@ header{
 ul>li{
     list-style: none;
     margin-left: 50px;
+}
+
+/* Navbar Design End  */
+
+/* Banner Design  */
+
+.banner h1{
+    color: #131313;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.banner p{
+    color: #727272;
+    text-align: center;
+    font-weight: 400;
+    max-width: 868px;
+}
+
+.primary-btn{
+    display: block;
+    padding: 20px;
+    text-align: center;
+    border: 0;
+    border-radius: 7px;
+    color: #fff;
+    background-color: #FF900E;
+}
+
+.banner img{
+    max-width: 1440px;
 }
